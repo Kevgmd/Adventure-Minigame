@@ -1,0 +1,93 @@
+* {
+    overflow-y: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../Assets/Grass\ Field.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 30px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: xxx-large;
+    color: purple;
+    background-color: #ffffff65;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#gameDescription {
+    display: flex;
+    font-size: x-large;
+}
+
+#playButton {
+    height: 60px;
+    width: 150px;
+    cursor: pointer;
+    margin-bottom: 110px;
+    filter: drop-shadow(0 0 10px yellow);
+}
+
+p {
+    display: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(165, 42, 42, 0.822);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: x-large;
+    text-align: center;
+}
+
+#textBox {
+    margin-top: 80px;
+}
+
+#choiceButtonContainer {
+    display: flex;
+    visibility: hidden;
+    gap: 300px;
+}
+
+.leftRightButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #02008d;
+    border: 2px solid black;
+    color: white;
+    border-radius: 10px;
+    height: 60px;
+    width: 120px;
+    font-size: large;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.leftRightButtons:hover {
+    background-color: #020064;
+}
+
+#leftButtonIMG {
+    transform: scaleX(-1);
+}
+
+#theActualGame {
+    display: none;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 85vh;
+}
