@@ -84,6 +84,10 @@ p {
     transform: scaleX(-1);
 }
 
+#middleButtonIMG {
+    transform: rotate(90deg);
+}
+
 #theActualGame {
     display: none;
     flex-direction: column;

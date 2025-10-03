@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Minigame</title>
+    <style>
+        * {
+            overflow-y: hidden;
+        }
+
+        body {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            background-image: url(../Adventure-Minigame/Assets/Farm\ from\ afar.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            margin: 30px;
+        }
+
+        p {
+            display: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgba(165, 42, 42, 0.822);
+            color: white;
+            border-radius: 15px;
+            padding: 10px;
+            font-size: x-large;
+            text-align: center;
+        }
+
+        #textBox {
+            margin-top: 80px;
+        }
+
+        #choiceButtonContainer {
+            display: flex;
+            visibility: hidden;
+            gap: 300px;
+        }
+
+        .leftRightButtons {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: #02008d;
+            border: 2px solid black;
+            color: white;
+            border-radius: 10px;
+            height: 60px;
+            width: 120px;
+            font-size: large;
+            cursor: pointer;
+            gap: 5px;
+        }
+
+        .leftRightButtons:hover {
+            background-color: #020064;
+        }
+
+        #leftButtonIMG {
+            transform: scaleX(-1);
+        }
+
+        #middleButtonIMG {
+            transform: rotate(90deg);
+        }
+
+        #theActualGame {
+            display: none;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            height: 85vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="theActualGame">
+        <p id="textBox">Após sonhos tumultuados, você súbitamente acorda e se encontra em um campo ensolarado
+            e verdejante, no entanto, você não reconhece a paisagem desconhecida a sua frente e logo sente a necessidade
+            de
+            encontrar respostas e o
+            seu
+            caminho de volta
+            para casa. Para qual lado você deseja ir?</p>
+        <div id="choiceButtonContainer">
+            <button class="leftRightButtons"><img src="./Assets/Arrow.png" height="30px" width="30px"
+                    id="leftButtonIMG">
+                <button class="leftRightButtons"><img src="./Assets/Arrow.png" height="30px" width="30px"
+                        id="middleButtonIMG">
+                    Left</button>
+                <button class="leftRightButtons" id="rightButton">Right <img src="./Assets/Arrow.png" height="30px"
+                        width="30px"></button>
+        </div>
+    </div>
+</body>
+<script src="/AdventureMinigame.js"></script>
+
+</html>
