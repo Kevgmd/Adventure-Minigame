@@ -12,16 +12,40 @@
 
         body {
             display: flex;
-            justify-content: end;
+            justify-content: space-between;
             align-items: center;
             flex-direction: column;
             background-color: black;
-            background-image: url("./Assets/Farm\ from\ afar.png");
+            background-image: url(../Assets/Grass\ Field.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             height: 85vh;
             margin: 30px;
+        }
+
+        h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            font-size: xxx-large;
+            color: purple;
+            background-color: #ffffff65;
+            border-radius: 10px;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        #gameDescription {
+            display: flex;
+            font-size: x-large;
+        }
+
+        #playButton {
+            height: 60px;
+            width: 150px;
+            cursor: pointer;
+            margin-bottom: 110px;
+            filter: drop-shadow(0 0 10px yellow);
         }
 
         p {
@@ -59,6 +83,7 @@
             cursor: pointer;
             gap: 5px;
             font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
             text-decoration: none;
         }
 
@@ -77,17 +102,23 @@
 </head>
 
 <body>
-    <p id="textBox">Ali próximo você avista uma velha casa de fazenda, talvez você possa ir lá
-        em busca de ajuda, e talvez até passar a noite ali, para qual lado você quer ir? </p>
+    <p id="textBox">Após sonhos tumultuados, você súbitamente acorda e se encontra em um campo ensolarado
+        e verdejante, no entanto, você não reconhece a paisagem desconhecida a sua frente, e logo sente a necessidade
+        de
+        encontrar respostas e o
+        seu
+        caminho de volta
+        para casa. Já está escurecendo, e você não quer ficar perdido por aí a noite. Para qual lado você deseja ir?</p>
     <div id="choiceButtonContainer">
-        <a href="StartPlains.html" class="leftRightButtons">Esquerda<img src="./Assets/Arrow.png" height="30px"
-                width="30px" id="leftButtonIMG">
-            <a class="leftRightButtons"><img src="./Assets/Arrow.png" height="30px" width="30px" id="middleButtonIMG">
-                Meio</a>
-            <a href="SecretWoods.html" class="leftRightButtons" id="rightButton">Direita <img src="./Assets/Arrow.png"
-                    height="30px" width="30px"></a>
+        <a href="/GrandLake.html" class="leftRightButtons"><img src="./Assets/Arrow.png" height="30px" width="30px"
+                id="leftButtonIMG">
+            Esquerda</a>
+        <a class="leftRightButtons"><img src="./Assets/Arrow.png" height="30px" width="30px" id="middleButtonIMG">
+            Meio</a>
+        <a href="Farmhouse.html" class="leftRightButtons" id="rightButton">Direita <img src="./Assets/Arrow.png"
+                height="30px" width="30px"></a>
     </div>
 </body>
-<script src="./AdventureMinigame.js"></script>
+<script src="/AdventureMinigame.js"></script>
 
 </html>
