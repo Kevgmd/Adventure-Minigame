@@ -16,36 +16,12 @@
             align-items: center;
             flex-direction: column;
             background-color: black;
-            background-image: url(../Assets/Grass\ Field.png);
+            background-image: url("/Assets/Grand\ lake.png");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             height: 85vh;
             margin: 30px;
-        }
-
-        h1 {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-weight: bolder;
-            font-size: xxx-large;
-            color: purple;
-            background-color: #ffffff65;
-            border-radius: 10px;
-            padding: 10px;
-            margin-top: 20px;
-        }
-
-        #gameDescription {
-            display: flex;
-            font-size: x-large;
-        }
-
-        #playButton {
-            height: 60px;
-            width: 150px;
-            cursor: pointer;
-            margin-bottom: 110px;
-            filter: drop-shadow(0 0 10px yellow);
         }
 
         p {
@@ -57,6 +33,7 @@
             padding: 10px;
             font-size: x-large;
             text-align: center;
+            margin-top: 230px;
         }
 
         #textBox {
@@ -83,7 +60,6 @@
             cursor: pointer;
             gap: 5px;
             font-family: Arial, Helvetica, sans-serif;
-            font-weight: lighter;
             text-decoration: none;
         }
 
@@ -102,23 +78,19 @@
 </head>
 
 <body>
-    <p id="textBox">Após sonhos tumultuados, você súbitamente acorda e se encontra em um campo ensolarado
-        e verdejante, no entanto, você não reconhece a paisagem desconhecida a sua frente, e logo sente a necessidade
-        de
-        encontrar respostas e o
-        seu
-        caminho de volta
-        para casa. Já está escurecendo, e você não quer ficar perdido por aí a noite. Para qual lado você deseja ir?</p>
+    <p id="textBox">Você encontra um grande lago com uma pequena doca e uma canoa, bem ao fim do lago você avista o que
+        parece ser uma vila, talvez você pode encontrar ajuda coletiva lá, no entando terá que cruzar todo o lago nessa
+        canoa de qualidade incerta, para qual lado você quer ir?</p>
     <div id="choiceButtonContainer">
-        <a href="/GrandLake.html" class="leftRightButtons"><img src="./Assets/Arrow.png" height="30px" width="30px"
-                id="leftButtonIMG">
-            Esquerda</a>
-        <a class="leftRightButtons"><img src="./Assets/Arrow.png" height="30px" width="30px" id="middleButtonIMG">
-            Meio</a>
-        <a href="Farmhouse.html" class="leftRightButtons" id="rightButton">Direita <img src="./Assets/Arrow.png"
-                height="30px" width="30px"></a>
+        <a href="/Levels/SecretWoods.html" class="leftRightButtons"><img src="/Assets/ArrowIcon.png" height="30px"
+                width="30px" id="leftButtonIMG"> Esquerda
+            <a href="/Levels/SinkingBoat.html" class="leftRightButtons"><img src="/Assets/ArrowIcon.png" height="30px"
+                    width="30px" id="middleButtonIMG">
+                Meio</a>
+            <a href="/Levels/StartPlains.html" class="leftRightButtons" id="rightButton">Direita <img
+                    src="/Assets/ArrowIcon.png" height="30px" width="30px"></a>
     </div>
 </body>
-<script src="/AdventureMinigame.js"></script>
+<script src="./AdventureMinigame.js"></script>
 
 </html>

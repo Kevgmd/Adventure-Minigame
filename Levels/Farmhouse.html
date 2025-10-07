@@ -12,11 +12,11 @@
 
         body {
             display: flex;
-            justify-content: space-between;
+            justify-content: end;
             align-items: center;
             flex-direction: column;
             background-color: black;
-            background-image: url("./Assets/Grand\ lake.png");
+            background-image: url("/Assets/Farm\ from\ afar.png");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -33,7 +33,6 @@
             padding: 10px;
             font-size: x-large;
             text-align: center;
-            margin-top: 230px;
         }
 
         #textBox {
@@ -78,16 +77,16 @@
 </head>
 
 <body>
-    <p id="textBox">Você encontra um grande lago com uma pequena doca e uma canoa, bem ao fim do lago você avista o que
-        parece ser uma vila, talvez você pode encontrar ajuda coletiva lá, no entando terá que cruzar todo o lago nessa
-        canoa de qualidade incerta, para qual lado você quer ir?</p>
+    <p id="textBox">Ali próximo você avista uma velha casa de fazenda, talvez você possa ir lá
+        em busca de ajuda, e talvez até passar a noite ali, para qual lado você quer ir? </p>
     <div id="choiceButtonContainer">
-        <a href="SecretWoods.html" class="leftRightButtons">Esquerda<img src="./Assets/Arrow.png" height="30px"
-                width="30px" id="leftButtonIMG">
-            <a class="leftRightButtons"><img src="./Assets/Arrow.png" height="30px" width="30px" id="middleButtonIMG">
+        <a href="/Levels/StartPlains.html" class="leftRightButtons"><img src="/Assets/ArrowIcon.png" height="30px"
+                width="30px" id="leftButtonIMG"> Esquerda
+            <a href="/Levels/FarmhouseFrontdoor.html" class="leftRightButtons"><img src="/Assets/ArrowIcon.png"
+                    height="30px" width="30px" id="middleButtonIMG">
                 Meio</a>
-            <a href="StartPlains.html" class="leftRightButtons" id="rightButton">Direita <img src="./Assets/Arrow.png"
-                    height="30px" width="30px"></a>
+            <a href="/Levels/SecretWoods.html" class="leftRightButtons" id="rightButton">Direita <img
+                    src="/Assets/ArrowIcon.png" height="30px" width="30px"></a>
     </div>
 </body>
 <script src="./AdventureMinigame.js"></script>
