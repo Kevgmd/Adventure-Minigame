@@ -16,7 +16,7 @@
             align-items: center;
             flex-direction: column;
             background-color: black;
-            background-image: url("/Assets/Enchanted\ Forest.png");
+            background-image: url("/Assets/Waterfall\ Bridge.png");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -41,12 +41,14 @@
 
         #choiceButtonContainer {
             display: flex;
-            gap: 300px;
+            justify-content: end;
+            flex-direction: column;
+            gap: 20px;
         }
 
         .leftRightButtons {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             background-color: #02008d;
@@ -73,19 +75,25 @@
         #middleButtonIMG {
             transform: rotate(270deg);
         }
+
+        #backButtonIMG {
+            transform: rotate(90deg);
+        }
     </style>
 </head>
 
 <body>
-    <p id="textBox">Após algum tempo caminhando, as horas foram passando e o sol se pondo, pouco antes da floresta ficar
-        completamente escura, tudo no bosque desconhecido ao seu redor começa a acender, o brilho azulado da floresta
-        encantada a sua frente te assusta mas ao mesmo tempo te fascina, este
-        lugar definitivamente não é no mundo em que conhecemos. A única opção agora será seguir em frente e ver aonde
-        esta trilha leva...</p>
+    <p id="textBox">Ao andar pela trilha da esquerda, você começa a ouvir o barulho de uma cachoeira ao fundo, ao chegar
+        mais perto você encontra uma ponte aparentemente bem conservada suspensa sobre uma grande ravina, ao lado há uma
+        grande cascata que cai sob um abismo gigantesco. Mesmo com temor, você pode tentar passar pela ponte, quem sabe
+        o que haverá depois dela? Uma Saída?</p>
     <div id="choiceButtonContainer">
-        <a href="/Levels/EnchantedWoodsPaths.html" class="leftRightButtons"><img src="/Assets/ArrowIcon.png"
-                height="30px" width="30px" id="middleButtonIMG">
-            Continuar</a>
+        <a href="/Levels/BridgeWalk.html" class="leftRightButtons"><img src="/Assets/ArrowIcon.png" height="30px"
+                width="30px" id="middleButtonIMG">
+            Ir
+            <a href="/Levels/EnchantedWoodsPaths.html" class="leftRightButtons"><img src="/Assets/ArrowIcon.png"
+                    height="30px" width="30px" id="backButtonIMG">
+                Voltar</a>
     </div>
 </body>
 <script src="./AdventureMinigame.js"></script>
