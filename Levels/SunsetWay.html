@@ -16,7 +16,7 @@
             align-items: center;
             flex-direction: column;
             background-color: black;
-            background-image: url("/Assets/End\ Home.png");
+            background-image: url("/Assets/Village\ at\ distance.png");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -62,37 +62,39 @@
             gap: 5px;
             font-family: Arial, Helvetica, sans-serif;
             text-decoration: none;
-            padding: 5px;
         }
 
         .leftRightButtons:hover {
             background-color: #020064;
         }
 
-        #blackScreen {
-            position: fixed;
-            background-color: black;
-            height: 100vh;
-            width: 100vw;
-            top: 0;
-            left: 0;
-            z-index: 2;
-            opacity: 1;
-            transition: all 4s ease;
+        #leftButtonIMG {
+            transform: scaleX(-1);
+        }
+
+        #middleButtonIMG {
+            transform: rotate(270deg);
+        }
+
+        #backButtonIMG {
+            transform: rotate(90deg);
         }
     </style>
 </head>
 
-
 <body>
-    <div id="blackScreen"></div>
-    <p id="textBox">De repente você reaparece no seu quarto, em que você sempre dormiu e acordou, tudo foi só um sonho?
-        Mas
-        isso não pode ser, foi tudo tão real... De qualquer forma, você saiu de qualquer que fosse isso são e salvo,
-        e agora
-        terá carregar o fardo deste mistério até o resto de sua vida, mesmo que ninguém acredite no que você viu.</p>
+    <p id="textBox">A Distância você vê uma pequena vila, você pode procurar ajuda coletiva lá, mesmo você não havendo
+        certeza
+        de onde está e nem se os moradores serão tão receptivos assim. Você quer ir?</p>
+    <div id="choiceButtonContainer">
+        <a href="/Levels/Village.html" class="leftRightButtons"><img src="/Assets/ArrowIcon.png" height="30px"
+                width="30px" id="middleButtonIMG">
+            Ir
+            <a href="/Levels/SunsetPassage.html" class="leftRightButtons"><img src="/Assets/ArrowIcon.png" height="30px"
+                    width="30px" id="backButtonIMG">
+                Voltar</a>
+    </div>
 </body>
-
 <script src="./AdventureMinigame.js"></script>
 
 </html>

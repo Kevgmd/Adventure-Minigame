@@ -16,7 +16,7 @@
             align-items: center;
             flex-direction: column;
             background-color: black;
-            background-image: url("/Assets/End\ Home.png");
+            background-image: url("/Assets/Village\ people.png");
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -33,17 +33,11 @@
             padding: 10px;
             font-size: x-large;
             text-align: center;
+            margin-top: 230px;
         }
 
         #textBox {
             margin-bottom: 50px;
-        }
-
-        #choiceButtonContainer {
-            display: flex;
-            justify-content: end;
-            flex-direction: column;
-            gap: 20px;
         }
 
         .leftRightButtons {
@@ -69,30 +63,20 @@
             background-color: #020064;
         }
 
-        #blackScreen {
-            position: fixed;
-            background-color: black;
-            height: 100vh;
-            width: 100vw;
-            top: 0;
-            left: 0;
-            z-index: 2;
-            opacity: 1;
-            transition: all 4s ease;
+        #leftButtonIMG {
+            transform: scaleX(-1);
         }
     </style>
 </head>
 
-
 <body>
-    <div id="blackScreen"></div>
-    <p id="textBox">De repente você reaparece no seu quarto, em que você sempre dormiu e acordou, tudo foi só um sonho?
-        Mas
-        isso não pode ser, foi tudo tão real... De qualquer forma, você saiu de qualquer que fosse isso são e salvo,
-        e agora
-        terá carregar o fardo deste mistério até o resto de sua vida, mesmo que ninguém acredite no que você viu.</p>
+    <p id="textBox">Ao entrar na cidade, você finalmente avistou algumas pessoas neste lugar, mas assim que te avistaram
+        perambulando pela cidade, começaram a te olhar com indiferença, e logo outros sairam de suas casas carregando
+        ferramentas de trabalho vindo em sua direção, ao chegarem mais perto, você percebe que eles estão tentando te
+        machucar. Parece que eles não foram tão receptivos afinal...
+    </p>
+    <a href="/Index.html" class="leftRightButtons">Recomeçar <img src="/Assets/RetryIcon.png">
 </body>
-
 <script src="./AdventureMinigame.js"></script>
 
 </html>
