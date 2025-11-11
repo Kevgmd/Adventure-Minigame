@@ -97,13 +97,26 @@
         #middleButtonIMG {
             transform: rotate(270deg);
         }
+
+        #blackScreen {
+            position: fixed;
+            background-color: black;
+            height: 100vh;
+            width: 100vw;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            opacity: 1;
+            transition: all 5s ease;
+        }
     </style>
 </head>
 
 <body>
-    <p id="textBox">Após sonhos tumultuados, você súbitamente acorda atordoado e se encontra em um campo
-        ensolarado
-        e verdejante, no entanto, você não reconhece a paisagem desconhecida a sua frente, e logo sente a necessidade
+    <div id="blackScreen"></div>
+    <p id="textBox">Após sonhos tumultuados, você súbitamente acorda e se encontra em um campo
+        verdejante e ensolarado, no entanto, você não reconhece a paisagem desconhecida a sua frente, e logo sente a
+        necessidade
         de
         encontrar respostas e o seu
         caminho de volta

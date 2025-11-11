@@ -4,3 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
         blackScreen.style.opacity = '0';
     });
 });
+
+setTimeout(() => {
+    blackScreen.style.display = 'none';
+}, 6000);
