@@ -11,7 +11,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
     margin: 30px;
 }
 
@@ -26,6 +26,16 @@ h1 {
     margin: 20px 0 5px 0;
 }
 
+#fullscreenTip {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: rgb(104, 0, 104);
+    background-color: #ffffff38;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
 h2 {
     display: flex;
     justify-content: center;
@@ -38,8 +48,6 @@ h2 {
     margin: 0;
 }
 
-#titleContainer {}
-
 #gameDescription {
     display: flex;
     font-size: x-large;
@@ -47,7 +55,6 @@ h2 {
 
 #playButton {
     cursor: pointer;
-    margin-bottom: 110px;
     filter: drop-shadow(0 0 10px yellow);
 }
 
@@ -74,35 +81,4 @@ p {
 #choiceButtonContainer {
     display: flex;
     gap: 300px;
-}
-
-.leftRightButtons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #02008d;
-    border: 2px solid black;
-    color: white;
-    border-radius: 10px;
-    height: 60px;
-    width: 120px;
-    font-size: large;
-    cursor: pointer;
-    gap: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    text-decoration: none;
-}
-
-.leftRightButtons:hover {
-    background-color: #020064;
-}
-
-#leftButtonIMG {
-    transform: scaleX(-1);
-}
-
-#middleButtonIMG {
-    transform: rotate(270deg);
 }
