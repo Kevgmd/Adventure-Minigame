@@ -9,10 +9,10 @@
 - Elementos de terror e mistério;
 - Inteiramente feito em HTML, CSS e polido com Javascript.
 
-Honestamente não sou muito de criar jogos, mas queria fazer ao menos um bem com uma história bem simples. Ao descobrir o poder da AI de criar qualquer cenário que eu posso imaginar, me veio a ideia de criar um pequeno mundo com as primeiras coisas que vieram em minha mente, então imaginei uma planície verde e ensolarada, que acabou virando a tela inicial e assim expandi a ideia a partir disso.
+Honestamente não sou muito de criar jogos, mas queria fazer ao menos um bem com um conceito bem simples. Ao descobrir o poder da AI de criar qualquer cenário que eu posso imaginar, me veio a ideia de criar um pequeno mundo com as primeiras coisas que vieram em minha mente, então imaginei uma planície verde e ensolarada, que acabou virando a tela inicial e assim expandi a ideia a partir disso.
 
 > [!IMPORTANT]
-> Jogue de tela cheia para melhor experiência.
+> Acesse em tela cheia para melhor experiência.
 
 # Créditos
 - Conceito: Kevgmd
@@ -20,7 +20,7 @@ Honestamente não sou muito de criar jogos, mas queria fazer ao menos um bem com
 - Escrita: Kevgmd
 - Código: Kevgmd
 - Trilha Sonora: Kevgmd (Maior parte), Toby Fox, Black Midi, Capcom Sound Team.
-- Ilustrações: Sora AI
+- Imagens: Sora AI
 
 > "Se você não tem grana pra pagar, faça você mesmo." - Thiago Braga
 
