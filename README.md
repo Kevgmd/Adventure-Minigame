@@ -12,7 +12,7 @@
 Honestamente não sou muito de criar jogos, mas queria fazer ao menos um bem com um conceito bem simples. Ao descobrir o poder da AI de criar qualquer cenário que eu posso imaginar, me veio a ideia de criar um pequeno mundo com as primeiras coisas que vieram em minha mente, então imaginei uma planície verde e ensolarada, que acabou virando a tela inicial e assim expandi a ideia a partir disso.
 
 > [!IMPORTANT]
-> Acesse em tela cheia para melhor experiência.
+> Jogue em tela cheia para melhor experiência.
 
 # Créditos
 - Conceito: Kevgmd
@@ -28,5 +28,5 @@ Honestamente não sou muito de criar jogos, mas queria fazer ao menos um bem com
 - Toby Fox - Dump
 - Toby Fox - Glowing Snow
 - Toby Fox - 12am
-- Black Midi - Years Ago (Efeito Sonoro do Final)
+- Black Midi - Years Ago (Apenas o efeito sonoro no final)
 - Capcom Sound Team - Ganado II
